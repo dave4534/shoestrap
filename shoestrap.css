@@ -1,0 +1,98 @@
+.col-1 {
+  float: left;
+  width: 8.33333333%;
+}
+
+.col-2 {
+  float: left;
+  width: 16.6666666667%;
+}
+
+.col-3 {
+  float: left;
+  width: 25%;
+}
+
+.col-4 {
+  float: left;
+  width: 33.333%;
+}
+
+.col-51 {
+  float: left;
+  width: 41.666666666%;
+}
+
+.col-6 {
+  float: left;
+  width: 50%;
+}
+
+.col-71 {
+  float: left;
+  width: 60%;
+}
+
+.col-72 {
+  float: left;
+  width: 40%;
+}
+
+.col-81 {
+  float: left;
+  width: 66.666666666%;
+}
+
+.col-91 {
+  float: left;
+  width: 75.00000001%;
+}
+
+.col-92 {
+  float: left;
+  width: 24.99999999%;
+}
+
+.col-101 {
+  float: left;
+  width: 83.3333333%;
+}
+
+.col-111 {
+  float: left;
+  width: 91.6666666%;
+}
+
+.col-112 {
+  float: left;
+  width: 8.33333333%%;
+}
+
+.col-12 {
+  float: left;
+  width: 100%;
+}
+
+
+
+.row:before {
+  display: table;
+  content: "";
+}
+
+.row:after {
+  display: table;
+  content: "";
+  clear: both;
+} 
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  }
