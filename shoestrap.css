@@ -1,3 +1,32 @@
+
+.parentRow {
+  margin-top: 80px;
+}
+
+nav {
+  width: 100%;
+  background-color: yellow;
+  /*display: block;*/
+  position: fixed;
+  border: 1px solid red;
+  top: 0px;
+}
+
+nav ul {
+  text-align: center;
+  border: 1px solid red;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style-type: none;
+  text-decoration: none;
+  border: 1px solid red;
+  padding: 5px;
+  height: 40px;
+
+}
+
 .col-1 {
   float: left;
   width: 8.33333333%;
@@ -72,8 +101,6 @@
   float: left;
   width: 100%;
 }
-
-
 
 .row:before {
   display: table;
